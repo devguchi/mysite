@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 body {
   background: black;
   color: white;

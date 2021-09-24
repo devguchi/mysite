@@ -5,22 +5,44 @@
 </h1>
 <ul>
 <li>
-  <a href="https://github.com/devguchi">
+  <a
+    href="https://github.com/devguchi"
+    target="_blank"
+  >
     Github
   </a>
 </li>
 <li>
-  <a href="https://twitter.com/devguchi">
+  <a
+    href="https://twitter.com/devguchi"
+    target="_blank"
+  >
     Twitter
   </a>
 </li>
 <li>
-  <a href="https://atcoder.jp/users/devguchi">
+  <a 
+    href="https://atcoder.jp/users/devguchi"
+    target="_blank"
+  >
     AtCoder
   </a>
+  <ul>
+    <li>
+      <a
+        href="https://kenkoooo.com/atcoder/#/user/devguchi?userPageTab=Achievement"
+        target="_blank"
+      >
+        Problems
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
-  <a href="https://www.kaggle.com/devguchi">
+  <a 
+    href="https://www.kaggle.com/devguchi"
+    target="_blank"
+  >
     Kaggle
   </a>
 </li>
@@ -30,7 +52,7 @@
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Home'
 }
 </script>
 

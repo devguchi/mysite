@@ -1,19 +1,17 @@
 <template>
-  <br />
   <a
-    class="twitter-timeline"
-    data-width="300"
-    data-height="600"
-    data-theme="dark"
     href="https://twitter.com/devguchi?ref_src=twsrc%5Etfw"
+    class="twitter-follow-button"
+    data-show-count="false"
   >
-    Tweets by devguchi
+    Follow @devguchi
   </a>
+  <br /><br />
 </template>
 
 <script>
 export default {
-  name: 'twitter',
+  name: 'twitter-button',
   mounted() {
     let tweetScript = document.createElement('script')
     tweetScript.setAttribute('src', 'https://platform.twitter.com/widgets.js')

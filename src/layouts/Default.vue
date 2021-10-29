@@ -1,17 +1,12 @@
 <template>
-  <Header />
+  <Menubar />
   <slot />
 </template>
 
 <script>
-import Header from '@/components/Header'
+import Menubar from '@/components/Menubar'
 export default {
   name: 'default',
-  components: { Header },
-  mounted() {
-    let tweetScript = document.createElement('script')
-    tweetScript.setAttribute('src', 'https://platform.twitter.com/widgets.js')
-    document.head.appendChild(tweetScript)
-  },
+  components: { Menubar },
 }
 </script>

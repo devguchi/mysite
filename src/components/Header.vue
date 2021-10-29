@@ -9,16 +9,12 @@
   >
     Follow @devguchi
   </a>
+  <br /><br />
 </template>
 
 <script>
 export default {
   name: 'header',
-  mounted() {
-    let tweetScript = document.createElement('script')
-    tweetScript.setAttribute('src', 'https://platform.twitter.com/widgets.js')
-    document.head.appendChild(tweetScript)
-  },
 }
 </script>
 

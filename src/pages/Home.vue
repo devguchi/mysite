@@ -29,13 +29,15 @@
         <a href="https://www.kaggle.com/devguchi" target="_blank"> Kaggle </a>
       </li>
     </ul>
+    <Twitter />
   </Default>
 </template>
 
 <script>
 import Default from '@/layouts/Default'
+import Twitter from '@/components/Twitter'
 export default {
   name: 'Home',
-  components: { Default },
+  components: { Default, Twitter },
 }
 </script>

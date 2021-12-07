@@ -15,9 +15,9 @@ body {
   padding: 0 10px;
 }
 a {
-  color: #0f0;
+  color: #0cf;
 }
 a:visited {
-  color: #0c0;
+  color: #09c;
 }
 </style>

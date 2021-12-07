@@ -10,7 +10,7 @@ export default {
 
 <style>
 body {
-  background: black;
+  background: #121212;
   color: white;
   padding: 0 10px;
 }

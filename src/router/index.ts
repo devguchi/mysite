@@ -1,0 +1,33 @@
+import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import Home from "../views/Home.vue";
+
+const routes: Array<RouteRecordRaw> = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: () => import(/* webpackChunkName: "blog" */ "../views/Blog.vue"),
+  },
+  {
+    path: "/nft",
+    name: "Nft",
+    component: () => import(/* webpackChunkName: "nft" */ "../views/Nft.vue"),
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+  },
+];
+
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes,
+});
+
+export default router;

@@ -1,23 +1,15 @@
 <template>
-  <router-view />
+  <Menu />
+  <div class="pt-10 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+    <router-view />
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-}
-</script>
+<script lang="ts">
+import { defineComponent } from "vue";
+import Menu from "@/layouts/Menu.vue";
 
-<style>
-body {
-  background: #121212;
-  color: white;
-  padding: 0 10px;
-}
-a {
-  color: #0cf;
-}
-a:visited {
-  color: #09c;
-}
-</style>
+export default defineComponent({
+  components: { Menu },
+});
+</script>

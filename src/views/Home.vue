@@ -4,20 +4,8 @@
     class="rounded-full"
     style="width: 150px"
   />
-  <h1 class="mt-5 text-2xl font-mono font-bold">web3ten0</h1>
   <ul class="my-5 pl-5 list-disc">
-    <li>
-      <a href="https://github.com/web3ten0" target="_blank"> Github </a>
-    </li>
-    <li>
-      <a href="https://twitter.com/web3ten0" target="_blank"> Twitter </a>
-    </li>
-    <li>
-      <a href="https://atcoder.jp/users/web3ten0" target="_blank"> AtCoder </a>
-    </li>
-    <li>
-      <a href="https://dev.to/web3ten0" target="_blank"> Blog </a>
-    </li>
+    <MyLinkList />
   </ul>
   <img
     src="https://github-readme-stats.vercel.app/api?username=web3ten0&show_icons=true&theme=dark&icon_color=fff"
@@ -31,8 +19,10 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import MyLinkList from "@/components/MyLinkList.vue";
 
 export default defineComponent({
   name: "Home",
+  components: { MyLinkList },
 });
 </script>
